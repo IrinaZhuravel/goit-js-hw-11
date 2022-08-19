@@ -5,6 +5,7 @@ import { params, getGallery } from './getGallery';
 import { createMarkup, addMarkup, clearGallery } from './galleryOperations';
 import onLoadMoreButtonClick from './onLoadMoreButtonClick';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+import './сss/styles.css';
 
 
 
