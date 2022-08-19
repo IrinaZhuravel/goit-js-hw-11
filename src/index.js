@@ -1,4 +1,4 @@
-import './сss/styles.css';
+
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import { params, getGallery } from './getGallery';
