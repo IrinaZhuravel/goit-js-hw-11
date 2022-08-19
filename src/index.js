@@ -1,10 +1,11 @@
+import './сss/styles.css';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import { params, getGallery } from './getGallery';
 import { createMarkup, addMarkup, clearGallery } from './galleryOperations';
 import onLoadMoreButtonClick from './onLoadMoreButtonClick';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import './сss/styles.css';
+
 
 
 const form = document.querySelector('.search-form');
