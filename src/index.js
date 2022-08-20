@@ -32,6 +32,7 @@ async function onFormSubmit(event) {
     event.target.searchQuery.value = '';
     return;
   }
+
   Notiflix.Notify.success(`Hooray! We found ${galleryData.totalHits} images.`);
   const markupArray = galleryData.hits.map(createMarkup);
   addMarkup(markupArray.join(''));
