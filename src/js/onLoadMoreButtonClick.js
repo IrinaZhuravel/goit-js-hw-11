@@ -1,6 +1,6 @@
 import { getGallery } from "./getGallery";
 import { gallery, createMarkup, addMarkup, clearGallery } from "./galleryOperations";
-import { gallerySimpleLightbox } from "./index";
+import { gallerySimpleLightbox } from "../index";
 import Notiflix from "notiflix";
 
 

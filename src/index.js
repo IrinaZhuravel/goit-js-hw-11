@@ -1,8 +1,9 @@
+import './sass/main.scss';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
-import { params, getGallery } from './getGallery';
-import { createMarkup, addMarkup, clearGallery } from './galleryOperations';
-import onLoadMoreButtonClick from './onLoadMoreButtonClick';
+import { params, getGallery } from './js/getGallery';
+import { createMarkup, addMarkup, clearGallery } from './js/galleryOperations';
+import onLoadMoreButtonClick from './js/onLoadMoreButtonClick';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 

@@ -14,10 +14,11 @@ function createMarkup ({ webformatURL, largeImageURL, tags, likes, views, commen
         <p class="info-item">
             <b>Comments</b> ${comments}
         </p>
-        </div>
         <p class="info-item">
             <b>Downloads</b> ${downloads}
         </p>
+        </div>
+        
     </div>
     `;
 }
