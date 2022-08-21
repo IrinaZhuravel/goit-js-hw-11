@@ -19,7 +19,7 @@ export default async function onLoadMoreButtonClick() {
     const totalPages = Math.ceil(galleryData.totalHits/params.per_page);
     // console.log("totalPages", totalPages);
     // console.log("params.page", params.page);
-      if (params.page >= totalPages){
+      if (params.page > totalPages){
       
         loadMoreBtn.classList.add('visually-hidden');
         Notiflix.Notify.info(`We're sorry, but you've reached the end of search results.`)
